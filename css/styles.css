@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  background-color: #14a5cd;
+  color: #fff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14a5cd;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14a5cd;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
